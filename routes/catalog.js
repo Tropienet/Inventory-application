@@ -3,8 +3,8 @@ var router = express.Router();
 
 //Require controller modules.
 var instrument_controller = require('../controllers/instrumentController');
-
 /// INSTRUMENT ROUTES ///
+
 
 //GET catalog home page.
 router.get('/', instrument_controller.index);
